@@ -6,6 +6,13 @@ class Shitpic < Formula
   sha256 "57761123732909bf0149f0a4cd843f05039d1279669318b254141823bb283c94"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/MagicalDrizzle/homebrew-tap/releases/download/shitpic-1.0-7f384b2"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "ad55c0327a36916a15457210a8cf9ebafcf26ad2efea8863427d79be486fa630"
+    sha256 cellar: :any_skip_relocation, ventura:       "bd3b8678b37ead9c210056b85307db62489318aafc4423014a5a4ddba306a493"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "dd4f53166ec22822c809e4cd0e65ef593de2146ee28e87d0657eb9d8723e0527"
+  end
+
   depends_on "go" => :build
 
   def install
