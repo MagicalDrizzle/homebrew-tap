@@ -12,7 +12,7 @@ jobs:
         working-directory: ${{ github.workspace }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Homebrew
         id: set-up-homebrew
