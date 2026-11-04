@@ -2,7 +2,8 @@ class Redu < Formula
   desc "Ncdu for your restic repository"
   homepage "https://github.com/drdo/redu"
   url "https://github.com/drdo/redu.git",
-    tag: "v0.2.15"
+    tag: "v0.2.16",
+    revision: "5962f434e748c0a187254d8edd33fd13ce5668ef"
   license "MIT"
 
   depends_on "rust" => :build
