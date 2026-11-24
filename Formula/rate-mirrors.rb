@@ -2,8 +2,8 @@ class RateMirrors < Formula
   desc "Mirror ranking tool for Arch Linux and derivatives"
   homepage "https://github.com/westandskif/rate-mirrors"
   url "https://github.com/westandskif/rate-mirrors.git",
-    tag:      "v0.34.1",
-    revision: "a89a08b6f7c5ed1beb0c784e7e15b4895f0de7c2"
+    tag:      "v0.34.2",
+    revision: "6de4280e8a03487fbbc47598d5ebc4e3d2e0fbe5"
   license "CC-BY-NC-SA-3.0"
 
   depends_on "rust" => :build
