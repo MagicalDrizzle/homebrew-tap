@@ -3,7 +3,7 @@ class Ffmpeg < Formula
   homepage "https://github.com/BtbN/FFmpeg-Builds"
   url "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl-shared.tar.xz"
   version "2026-11-27-12-42"
-  sha256 "fa8ba3047ae4ec2a6c2d66a8a6d891e5a8ddc71c5b3040949097dde80ba4cb36"
+  sha256 "9711dbb3982615d38da249c5299a942e20dde37a85fd4c9858d0f8c3cf220a57"
   license "MIT"
 
   conflicts_with "ffmpeg", because: "alternate version of ffmpeg"
