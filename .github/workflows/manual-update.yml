@@ -2,7 +2,7 @@ name: manual update of binary formulae
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'  # 04:00 UTC everyday
+    - cron: '0 7 * * *'  # 04:00 UTC everyday
 
 jobs:
   update-formula:
@@ -46,5 +46,5 @@ jobs:
           else
             git commit -m "Updated FFmpeg to $VERSION"
             git pull --rebase origin main
-            git push origin HEAD:main
+            git push --force-with-lease origin HEAD:main
           fi
